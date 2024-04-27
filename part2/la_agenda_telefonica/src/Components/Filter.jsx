@@ -19,7 +19,7 @@ export const Filter = ({persons}) => {
         setSearch('')
       }
 
-    const handleSearch = (event) =>{
+    const handleSearch = (event) => {
         setSearch(event.target.value)
       }
   return (

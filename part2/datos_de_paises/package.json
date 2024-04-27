@@ -1,5 +1,5 @@
 {
-  "name": "la_agenda_telefonica",
+  "name": "datos_de_paises",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "server": "http://localhost:3001/persons"
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.6.8",
@@ -23,7 +22,6 @@
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
-    "json-server": "^1.0.0-alpha.23",
     "vite": "^4.4.5"
   }
 }

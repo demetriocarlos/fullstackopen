@@ -1,0 +1,8 @@
+
+PUT http://localhost:3001/persons/661c9238cf56f90358d80b81
+Content-Type: application/json
+
+{
+    "name": "matrix",
+    "number": "980-654-123"
+}

@@ -1,16 +1,17 @@
 
 
 // eslint-disable-next-line react/prop-types
-export const PersonForm = ({addName,newName,handleNoteChange,newNumber, handleNumberChange}) => {
+export const PersonForm = ({handleChange,addPerson,personData}) => {
      
 
   return (
     <div>
-        <form  onSubmit={addName}>
+        <form  onSubmit={addPerson}>
         <div>
-          name: <input value={newName}  onChange={handleNoteChange}/>
+          name: <input type="text" name="name" value={personData.name}  onChange={handleChange}/>
         </div>
-        <div>number: <input value={newNumber} onChange={handleNumberChange}/></div>
+         
+        <div>number: <input  type="text" name="number" value={personData.number} onChange={handleChange}/></div>
         <div>
           <button type="submit">add</button>
         </div>
